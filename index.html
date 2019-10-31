@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Form</title>
+</head>
+<body>
+  <table border="2">
+    <thead>
+      <tr>
+       <th>Имя</th>
+       <th>Фамилия</th>
+       <th>Телефон</th>
+       <th>Email</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+       <td>Михаил</td>
+       <td>Лазарев</td>
+       <td>21-3-436</td>
+       <td>1234@gmail.com</td>
+      </tr>
+     
+      <tr>
+       <td>Лев</td>
+       <td>Комиссаров</td>
+       <td>51-5-463</td>
+       <td>2134@gmail.com</td>
+     </tr>
+     <tr>
+       <td>Кирилл</td>
+       <td>Ефремов</td>
+       <td>21-8-777</td>
+       <td>4321@gmail.com</td>
+     </tr>
+     <tr>
+       <td>Глеб</td>
+       <td>Жданов</td>
+       <td>50-3-456</td>
+       <td>4123gmail.com</td>
+     </tr>
+   </tbody>
+</table>
+  
+  <br/>
+  <br/>
+   
+<form>
+     	
+     	<input type="name" name="name"  placeholder="Ведите Ваше имя">  
+  <br/>
+  <br/>
+        <input type="name" name="surname" placeholder="Ведите Вашу фамилию">  
+  <br/>
+  <br/>  
+        <p>Какой Ваш пол?</p>   
+        <label><input type="radio" name="evalution" value="man" checked="checked"/> М </label> 
+  <br/>
+		<label><input type="radio" name="evalution" value="woman"/> Ж </label>
+		
+  <br/>
+  <br/>       
+        <textarea name="question" rows="10" cols="45" placeholder="Напишите свой вопрос"></textarea> 
+  <br/>
+  <br/>
+  <br/>
+         
+
+         <select  name="city">
+      
+            <option selected disabled>Выберите город</option>
+            <option value="t1">Киев</option>
+            <option value="t2">Днепр</option>
+            <option value="t3">Львов</option>
+            <option value="t4">Одесса</option>
+            <option value="t5">Харьков</option>
+            <option value="t6">Черкассы</option>
+            <option value="t7">Винница</option>
+            <option value="t8">Запорожье</option>
+            <option value="t9">Кривой Рог</option>
+        </select>
+        
+<br/>
+<br/>
+           <p>Выбор языка:</p>
+		<label><input type="checkbox" name="language []" value="ukrainian" checked="checked">Українська</label><br/>
+		<label><input type="checkbox" name="language []" value="russian">Русский</label><br/>
+		<label><input type="checkbox" name="language []" value="english">English</label><br/>
+		
+           
+<br/>
+<br/>
+  
+       
+	      <input type="submit" value="Отправить">
+   
+		
+</form>
+</body>
+</html>
